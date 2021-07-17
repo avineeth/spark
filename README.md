@@ -30,5 +30,8 @@
 ![SparkCluster](/img/Spark_Cluster.png)
 
 
-###### Transformations and Actions
+##### Transformations and Actions
 ![TransformationsAndActions](/img/Transformations_Actions.png)
+
+##### Catalyst Optimizer
+![Catalyst_Optimizer](img/Catalyst_Optimizer.png)
