@@ -9,4 +9,4 @@
   + Each job is broken down into stages. Each job is broken down into stages, which is a set of ordered steps that, together, accomplish a job.
   + Tasks are created by the driver and assigned a partition of data to process. These are the smallest unit of work.
 
-![SparkProcessing](/)
+![SparkProcessing](/Screen Shot 2021-07-17 at 4.38.44 PM.png)
