@@ -10,3 +10,8 @@
   + Tasks are created by the driver and assigned a partition of data to process. These are the smallest unit of work.
 
 ![SparkProcessing](/img/Spark_Processing.png)
+
+
+##### Spark Cluster
+
+![SparkCluster](/img/Spark_Cluster.png)
