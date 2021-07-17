@@ -14,4 +14,21 @@
 
 ##### Spark Cluster
 
+**Driver** :Driver is where the application runs and has 3 main functions
+ 1. maintaining information about spark application
+ 2. responding to user program
+ 3. analyzing, distributing and scheduling work accross executors.
+
+**Executor** : holds a chunck of data to be processed. A chunk is called **Partitions**. Its a chunk of rows that sit on one machine in cluster. It is responsible for 2 functions.
+ 1. execute the code assiged by driver.
+ 2. report the state of computation back to the driver.
+
+**Tasks** :
+
+**Core/Slots** : 
+
 ![SparkCluster](/img/Spark_Cluster.png)
+
+
+###### Transformations and Actions
+![TransformationsAndActions](/img/Transformations_Actions.png)
