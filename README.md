@@ -35,3 +35,15 @@
 
 ##### Catalyst Optimizer
 ![Catalyst_Optimizer](img/Catalyst_Optimizer.png)
+
+##### What is a dataframe?
+Distributed collection of data grouped into named columns
+**Schema** defines the column names and types
+**Transformations** are methods that return a new DataFrame and are lazily evaluated. Select, where, and orderBy are examples of transformations.
+Because each of these return a DataFrame, we are able to chain these methods together to build new DataFrames.
+**Actions** are methods that trigger computation. Count returns the number of records in a DataFrame, collect returns an array of all rows in a DataFrame, and head displays the top few rows of a DataFrame. 
+**Lazy Evaluation** DataFrame transformations are not evaluated until an action is called. 
+
+##### SparkSession
+SparkSession is a reference to the spark application running on the cluster
+
